@@ -1,0 +1,19 @@
+.free-comp {
+  padding: 18px 66px;
+  text-align: center;
+  background-color: var(--color-purple);
+  border-radius: 10px;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.free-comp h3 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: 0.268px;
+}
+
+.free-comp h3 span {
+  font-weight: 700;
+}

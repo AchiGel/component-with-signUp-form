@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <PromoText />
-        <FreeComp />
+        <section>
+          <FreeComp />
+        </section>
       </div>
     </div>
   );
