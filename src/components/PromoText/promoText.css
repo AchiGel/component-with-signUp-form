@@ -1,0 +1,20 @@
+.promo-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.promo-text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.292px;
+  margin-bottom: 16px;
+}
+
+.promo-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 64px;
+}
