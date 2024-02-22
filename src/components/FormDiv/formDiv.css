@@ -16,6 +16,7 @@
 .form-div p span {
   color: var(--color-red);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .trial-form {
@@ -54,4 +55,11 @@
   font-weight: 600;
   line-height: 26px; /* 173.333% */
   letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.trial-form button:hover {
+  cursor: pointer;
+  background: #77e2b3;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
 }
