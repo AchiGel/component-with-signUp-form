@@ -29,3 +29,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (min-width: 900px) {
+  body {
+    background-image: url(../public/images/bg-intro-desktop.png);
+  }
+}
