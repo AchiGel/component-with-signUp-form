@@ -1,4 +1,5 @@
 import "./App.css";
+import FormDiv from "./components/FormDiv/FormDiv";
 import FreeComp from "./components/FreeComp/FreeComp";
 import PromoText from "./components/PromoText/PromoText";
 
@@ -9,6 +10,7 @@ function App() {
         <PromoText />
         <section>
           <FreeComp />
+          <FormDiv />
         </section>
       </div>
     </div>
