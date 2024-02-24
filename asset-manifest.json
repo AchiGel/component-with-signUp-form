@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/component-with-signUp-form/static/css/main.0c4c4dbd.css",
+    "main.js": "/component-with-signUp-form/static/js/main.f27c68d2.js",
+    "static/media/bg-intro-desktop.png": "/component-with-signUp-form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/component-with-signUp-form/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/component-with-signUp-form/index.html",
+    "static/media/icon-error.svg": "/component-with-signUp-form/static/media/icon-error.b72f792e9c900128f5c8.svg",
+    "main.0c4c4dbd.css.map": "/component-with-signUp-form/static/css/main.0c4c4dbd.css.map",
+    "main.f27c68d2.js.map": "/component-with-signUp-form/static/js/main.f27c68d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4c4dbd.css",
+    "static/js/main.f27c68d2.js"
+  ]
+}
