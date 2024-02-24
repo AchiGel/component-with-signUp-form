@@ -18,11 +18,25 @@ function FormDivInputs(props) {
     }
   }
 
+  function validateEmailInput(e) {
+    const value = e.target.value;
+    setTextContent(value);
+    if (!value.trim().includes("@") || !value.trim().includes(".")) {
+      setTextContentError("Looks like this is not an email");
+      setWarning(true);
+    } else {
+      setTextContentError("");
+      setWarning(false);
+    }
+  }
+
   return (
     <>
       <input
         className={warning ? "warning-input" : ""}
-        onChange={validateTextContent}
+        onChange={
+          props.type === "email" ? validateEmailInput : validateTextContent
+        }
         type={props.type}
         placeholder={props.placeholder}
         value={textContent}
