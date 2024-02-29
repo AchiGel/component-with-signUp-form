@@ -2,7 +2,7 @@ function FormDivInputs(props) {
   return (
     <>
       <input
-        className={props.warning ? "warning-input" : ""}
+        className={props.warning ? "warning-input" : null}
         type={props.type}
         placeholder={props.placeholder}
         value={props.value}

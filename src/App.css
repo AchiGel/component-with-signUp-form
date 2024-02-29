@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 section {
   max-width: 540px;
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FormDivInputs from "../FromDivInputs/FormDivInputs";
 import "./formDiv.css";
 
-function FormDiv() {
+function FormDiv(props) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -67,8 +67,9 @@ function FormDiv() {
       isValidPassword
     ) {
       console.log("Form submitted successfully!");
+      props.setSuccess(!props.sucess);
     } else {
-      setWarning(true);
+      setWarning(!warning);
     }
   }
 
