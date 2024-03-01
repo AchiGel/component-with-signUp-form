@@ -68,8 +68,9 @@ function FormDiv(props) {
     ) {
       console.log("Form submitted successfully!");
       props.setSuccess(!props.sucess);
+      setWarning(false);
     } else {
-      setWarning(!warning);
+      setWarning(true);
     }
   }
 
